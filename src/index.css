@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: PT Sans, Calibri, sans-serif;
+}
+
+.shimmer {
+  /* Use a gradient that gives a soft and smooth shimmering effect */
+  background: linear-gradient(
+    90deg,
+    rgba(60, 60, 60, 0.2) 25%,
+    /* Lighter shade */ rgba(80, 80, 80, 0.5) 50%,
+    /* Darker shade */ rgba(60, 60, 60, 0.2) 75% /* Lighter shade */
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite linear; /* Smooth and continuous animation */
+  border-radius: 0.375rem; /* Rounded corners for a softer look */
+}
+
+.bg-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(60, 60, 60, 0.2) 25%,
+    /* Lighter shade */ rgba(80, 80, 80, 0.5) 50%,
+    /* Darker shade */ rgba(60, 60, 60, 0.2) 75% /* Lighter shade */
+  );
+  background-size: 200% 100%; /* Makes the gradient larger for movement */
+  animation: shimmer 1.5s infinite linear; /* Applies the shimmer animation */
+}
