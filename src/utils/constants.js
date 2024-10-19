@@ -1,7 +1,7 @@
 export const LOGO_URL =
   "https://img.freepik.com/premium-vector/beautiful-unique-food-restaurant-company-logo-design_981150-2182.jpg?ga=GA1.1.1437444018.1723630836&semt=ais_hybrid";
 
-export const RESTAURANT_MENU_API = `http://foodbackend-dnvc.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=21.1702401&lng=72.83106070000001&&submitAction=ENTER&restaurantId=`;
+export const RESTAURANT_MENU_API = `https://foodbackend-dnvc.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=21.1702401&lng=72.83106070000001&&submitAction=ENTER&restaurantId=`;
 
 // "/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.900965&lng=75.8572758&restaurantId=";
 
