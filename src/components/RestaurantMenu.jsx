@@ -11,9 +11,12 @@ const RestaurantMenu = () => {
   const [showIndex, setShowIndex] = useState(0);
 
   const fetchMenu = async () => {
-    const data = await fetch(
-      RESTAURANT_MENU_API + resId + "&catalog_qa=undefined&submitAction=ENTER"
-    );
+    // const data = await fetch(
+    //   RESTAURANT_MENU_API + resId + "&catalog_qa=undefined&submitAction=ENTER"
+    
+    // );
+    // below line is updated
+    const data = await fetch(RESTAURANT_MENU_API + resId);
     const json = await data.json();
     setMenuData(json.data);
   };
